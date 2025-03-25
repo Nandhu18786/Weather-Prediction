@@ -217,7 +217,7 @@ def classify_temperature(temp):
 def main():
     st.title("Weather Data Fetcher and Temperature Prediction App")
     
-    geocoding_api_key = "176ae02dc4ce4d61901a0d1e34a36a7a"  # Replace with your OpenCage API key
+    geocoding_api_key = "YOUR_OPENCAGE_API"  # Replace with your OpenCage API key
     latitude, longitude = None, None
 
     # Fetch weather data section
